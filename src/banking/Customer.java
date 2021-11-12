@@ -6,9 +6,9 @@ public class Customer {
   private String   firstName;
   private String   lastName;
 
-  public Customer(String f, String l) {
-    firstName = f;
-    lastName = l;
+  public Customer(String firstName, String lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 
   public String getFirstName() {
@@ -20,7 +20,7 @@ public class Customer {
   public Account getAccount() {
     return account;
   }
-  public void setAccount(Account acct) {
-    account = acct;
+  public void setAccount(Account account) {
+    this.account = account;
   }
 }

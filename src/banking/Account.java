@@ -2,10 +2,10 @@ package banking;
 
 public class Account {
 
-  private double   balance;
+  private double balance;
 
-  public Account(double bal) {
-    balance = bal;
+  public Account(double balance) {
+    this.balance = balance;
   }
 
   public double getBalance() {
