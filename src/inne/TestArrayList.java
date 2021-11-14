@@ -34,6 +34,17 @@ public class TestArrayList {
             System.out.println(s);
         }
 
+        ArrayList<Integer> listaIntegerow = new ArrayList<Integer>();
+
+        listaIntegerow.add(2);
+        listaIntegerow.add(4);
+        listaIntegerow.add(new Integer(2));
+        listaIntegerow.add(Integer.valueOf(7));
+
+        for (int i : listaIntegerow) {
+            System.out.println(i);
+        }
+
     }
 
 }
